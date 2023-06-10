@@ -1,0 +1,38 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: black solid 2px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.email {
+    font-weight: bold;
+}
+
+.fname {
+    float: left;
+    font-weight: bold;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.lname {
+    float: left;
+    font-weight: bold;
+    width: 45%;
+}
+
+.msg {
+    padding-top: 5px;
+    clear: both;
+}
+
+.msg textarea {
+    width: 90%;
+}
+
+.btn {
+    margin-right: 0;
+}
