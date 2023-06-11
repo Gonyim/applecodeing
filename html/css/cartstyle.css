@@ -4,6 +4,14 @@
     background-color: skyblue;
 }
 
+.container {
+    width: 600px;
+}
+
+.container h2 {
+    text-align: left;
+}
+
 .maincontainer div {
     margin: 0 auto;
 }
@@ -17,4 +25,13 @@ table {
     background-color: white;
     border: 1px solid skyblue;
     border-radius: 5px;
+    width: 600px;
+}
+
+table td {
+    border-bottom: 1px solid black;
+}
+
+.btmenu span {
+    
 }
