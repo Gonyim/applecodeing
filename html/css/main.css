@@ -1,3 +1,8 @@
+@font-face {
+    font-family : '이쁜폰트';
+    src : url(../font/NanumSquareR.woff)
+}
+
 .profile {
     width: 100px;
     display: block;
@@ -26,4 +31,23 @@
     text-align: center;
     box-shadow: 10px 5px 5px red;
     background-color: skyblue;
+}
+
+body {
+    font-family: '이쁜폰트';
+}
+
+.mainflex-container {
+    display: flex;
+}
+
+.flex-container {
+    text-align: right;
+    background-color: coral;
+}
+
+.flex-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
 }
