@@ -4,7 +4,7 @@
 }
 
 .main-container > div {
-    flex-basis: 50%;
+    flex-basis: 25%;
 }
 
 @media screen and (max-width: 1200px) {
