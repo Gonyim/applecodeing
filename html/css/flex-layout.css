@@ -1,20 +1,36 @@
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    max-width: 600px;
 }
 
 .main-container > div {
     flex-basis: 25%;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
     .main-container > div {
         flex-basis: 50%;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 768px) {
     .main-container > div {
         flex-basis: 100%;
+        text-align: center;
     }
+}
+
+
+
+
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
 }
